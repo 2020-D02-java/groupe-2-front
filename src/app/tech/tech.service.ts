@@ -22,7 +22,7 @@ export class TechService {
   listBackendLinks(): Observable<BackendLink> {
     return merge(this.http.get(`${environment.baseUrl}${environment.apiActuator}`)
       .pipe(
-        flatMap((actuatorData) => Object.entries(actuatorData._links)
+        flatMap((actuatorData) => Object.entries(actuatorData)
             .map((entry: [string, any]) => new BackendLink({name: entry[0], href: entry[1].href}))
         )
       ), of(new BackendLink({name: 'versions', href: `${environment.baseUrl}${environment.apiVersion}`})))

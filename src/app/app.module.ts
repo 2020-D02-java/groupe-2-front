@@ -10,6 +10,8 @@ import {StatutConnecteService} from './auth/statut-connecte.service';
 import {AuthInterceptorService} from './auth/auth-interceptor.service';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { PierreBatignesBioComponent } from './pierre-batignes-bio/pierre-batignes-bio.component';
+import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
 import { VincentGComponent } from './vincent-g/vincent-g.component';
 
 
@@ -18,13 +20,15 @@ import { VincentGComponent } from './vincent-g/vincent-g.component';
     AppComponent,
     AuthComponent,
     TechComponent,
+    PierreBatignesBioComponent,
     VincentGComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    RouterModule.forRoot(ROUTES)
   ],
   providers: [{
     provide: HTTP_INTERCEPTORS,
