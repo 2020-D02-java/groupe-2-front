@@ -8,7 +8,7 @@ deploy:  
   local-dir: dist/groupe-2-front
   provider: pages   
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN2
   on:
     branch: 02-deploiement-travis
 notifications:   
