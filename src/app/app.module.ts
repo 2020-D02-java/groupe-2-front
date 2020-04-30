@@ -10,9 +10,11 @@ import {StatutConnecteService} from './auth/statut-connecte.service';
 import {AuthInterceptorService} from './auth/auth-interceptor.service';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { AnaisComponent } from './anais/anais.component';
 import { PierreBatignesBioComponent } from './pierre-batignes-bio/pierre-batignes-bio.component';
 import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
 import { VincentGComponent } from './vincent-g/vincent-g.component';
+
 
 
 @NgModule({
@@ -20,6 +22,7 @@ import { VincentGComponent } from './vincent-g/vincent-g.component';
     AppComponent,
     AuthComponent,
     TechComponent,
+    AnaisComponent,
     PierreBatignesBioComponent,
     VincentGComponent
   ],
