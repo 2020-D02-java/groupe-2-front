@@ -11,18 +11,20 @@ import {AuthInterceptorService} from './auth/auth-interceptor.service';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { AnaisComponent } from './anais/anais.component';
+import { PierreBatignesBioComponent } from './pierre-batignes-bio/pierre-batignes-bio.component';
+import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
+import { VincentGComponent } from './vincent-g/vincent-g.component';
 
 
-export const ROUTES: Routes = [
-  { path: 'anais', component: AnaisComponent},
-];
 
 @NgModule({
   declarations: [
     AppComponent,
     AuthComponent,
     TechComponent,
-    AnaisComponent
+    AnaisComponent,
+    PierreBatignesBioComponent,
+    VincentGComponent
   ],
   imports: [
     BrowserModule,
