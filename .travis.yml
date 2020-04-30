@@ -9,5 +9,7 @@ deploy:  
   provider: pages   
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
+  on:
+    branch: 02-deploiement-travis
 notifications:   
   email: false
