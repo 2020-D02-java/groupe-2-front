@@ -12,6 +12,7 @@ import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { PierreBatignesBioComponent } from './pierre-batignes-bio/pierre-batignes-bio.component';
 import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
+import { VincentGComponent } from './vincent-g/vincent-g.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
     AppComponent,
     AuthComponent,
     TechComponent,
-    PierreBatignesBioComponent
+    PierreBatignesBioComponent,
+    VincentGComponent
   ],
   imports: [
     BrowserModule,
