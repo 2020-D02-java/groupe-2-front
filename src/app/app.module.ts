@@ -14,6 +14,7 @@ import { AnaisComponent } from './anais/anais.component';
 import { PierreBatignesBioComponent } from './pierre-batignes-bio/pierre-batignes-bio.component';
 import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
 import { VincentGComponent } from './vincent-g/vincent-g.component';
+import { PageAccueilComponent } from './page-accueil/page-accueil.component';
 
 
 
@@ -24,7 +25,8 @@ import { VincentGComponent } from './vincent-g/vincent-g.component';
     TechComponent,
     AnaisComponent,
     PierreBatignesBioComponent,
-    VincentGComponent
+    VincentGComponent,
+    PageAccueilComponent
   ],
   imports: [
     BrowserModule,
