@@ -14,7 +14,11 @@ import { AnaisComponent } from './anais/anais.component';
 import { PierreBatignesBioComponent } from './pierre-batignes-bio/pierre-batignes-bio.component';
 import { ROUTES } from '../../../groupe-2-front/src/app/app.routes';
 import { VincentGComponent } from './vincent-g/vincent-g.component';
+<<<<<<< HEAD
 import { PageAccueilComponent } from './page-accueil/page-accueil.component';
+=======
+import { JonathanBioComponent } from './jonathan-bio/jonathan-bio.component';
+>>>>>>> e3f07dfda8639e47f454671e01f671f88375e207
 
 
 
@@ -26,7 +30,11 @@ import { PageAccueilComponent } from './page-accueil/page-accueil.component';
     AnaisComponent,
     PierreBatignesBioComponent,
     VincentGComponent,
+<<<<<<< HEAD
     PageAccueilComponent
+=======
+    JonathanBioComponent
+>>>>>>> e3f07dfda8639e47f454671e01f671f88375e207
   ],
   imports: [
     BrowserModule,
